@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-export type NavItemProps = {
+interface NavItemProps {
   title: string;
   hrefLink?: string;
 }

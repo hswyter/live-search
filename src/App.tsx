@@ -1,11 +1,9 @@
 import React, { FunctionComponent } from 'react';
-import Header from './components/Header';
+import UserSearchPage from './pages/user-search/UserSearchPage';
 
 const App: FunctionComponent = () => {
   return (
-    <div>
-      <Header />
-    </div>
+    <UserSearchPage />
   );
 }
 
